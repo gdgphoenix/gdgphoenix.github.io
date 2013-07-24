@@ -16,11 +16,11 @@ boomerang.factory('Config',function(){
         'google_api'    : 'AIzaSyC9TwDWo427Kn-E37qorq70lOEzJTiqzZk',
         'pwa_id'        : '--5846413253595166705', //picasa web album id, must belong to google+ id above
         'cover' : {
-            title : 'DevFest Fresno',
-                subtitle : 'The Phoenix Chapter of the Google ',
+            title : 'GDG Phoenix',
+                subtitle : 'The Phoenix Chapter of the Google Developer Groups',
                 button : {
-                    text : 'Register',
-                    url : 'https://devfestfresno.eventbrite.com'
+                    text : 'Join Us',
+                    url : 'https://plus.google.com/107371179007921028529'
                 }
         }
     }
