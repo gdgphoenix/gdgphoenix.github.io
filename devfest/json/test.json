@@ -1,0 +1,58 @@
+[
+    {
+        "time" : {
+            "start" : 1382801400000,
+            "end" : 1382805000000
+        },
+        "sessions" : ["Registration and Breakfast (from local Greater Than Coffee)"]
+    },
+    {
+        "time" : {
+            "start" : 1382805000000,
+            "end" : 1382810400000
+        },
+        "sessions" : ["Android Tools Essentials (Donn Felker and Mike Wolfson)"]
+    },
+
+    {
+        "time" : {
+            "start" : 1382810400000,
+            "end" : 1382814000000
+        },
+        "sessions" : ["Team Tools - How to Hire, Plan and Manage a Software Development Project Driven by a Distributed Team (Vincent Serpico)"]
+    },
+
+    {
+        "time" : {
+            "start" : 1382814000000,
+            "end" : 1382774400000
+        },
+        "sessions" : ["Lunch from Pita Jungle"]
+    },
+
+    {
+        "time" : {
+            "start" : 1382774400000,
+            "end" : 1382778000000
+        },
+        "sessions" : ["Chrome Dev Tools (Olu Ayandosu)"]
+    },
+
+    {
+        "time" : {
+            "start" : 1382778000000,
+            "end" : 1382778600000
+        },
+        "sessions" : ["Closing Remarks"]
+    }
+
+
+    // {
+    //     "time" : {
+    //         "start" : 1382805000000,
+    //         "end" : 1382810400000
+    //     },
+    //     "sessions" : [0],
+    //     "comment_delete" : "sessions in here are an array of session indexes from speakers.json"
+    // }
+]

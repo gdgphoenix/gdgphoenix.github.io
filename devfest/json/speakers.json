@@ -1,0 +1,22 @@
+[
+    {
+        "speakers" : [{
+            "name" : "Donn Felker",
+            "gplusid" : "114746422988923214718",
+            "image" : "https://lh3.googleusercontent.com/-G_xmhZgINxg/AAAAAAAAAAI/AAAAAAAAAAA/DbSPp1SSti4/s50-c/photo.jpg",
+            "company" : "Agilevent",
+            "title" : "Startup Founder & Software Consultant"
+        },
+        {
+            "name" : "Michael Wolfson",
+            "gplusid" : "114182988463720945996",
+            "image" : "https://lh3.googleusercontent.com/-nzEClnFMKmE/AAAAAAAAAAI/AAAAAAAAItQ/TDJGPZqG4-s/s120-c/photo.jpg",
+            "company" : "Epocrates",
+            "title" : ""
+        }
+        ],
+        "title" : "Android Tools Essentials",
+        "desc" : "",
+        "id" : 0
+    }
+]

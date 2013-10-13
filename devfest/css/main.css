@@ -1,0 +1,223 @@
+body {
+    padding-top:80px;
+    background-image: url('../images/devfest-wallpaper.png');
+    background-color:rgb(229, 229, 229);
+    font-family: 'Roboto', sans-serif;
+    color: #505050;
+}
+h1, h5 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+}
+.lead {
+    font-weight: 300;
+}
+.bordered-shadowed {
+    box-shadow: 0 0 3px 1px rgba(0,0,0,.05);
+    border: 1px solid rgb(195, 195, 195);
+    background-color: #fff;
+}
+
+.navbar {
+    border: none;
+}
+
+.navbar-nav li a{
+    border-bottom: 5px solid rgb(34, 34, 34);
+}
+
+.navbar-nav li.active.red a,
+.navbar-nav li.red a:hover {
+    border-bottom: 5px solid rgb(213,63,52);
+}
+
+.navbar-nav li.active.blue a,
+.navbar-nav li.blue a:hover {
+    border-bottom: 5px solid rgb(68,134,248);
+}
+
+.navbar-nav li.active.green a,
+.navbar-nav li.green a:hover {
+    border-bottom: 5px solid rgb(10,162,90);
+}
+
+.navbar-nav li.active.yellow a,
+.navbar-nav li.yellow a:hover {
+    border-bottom: 5px solid rgb(251,201,68);
+}
+
+
+.navbar-nav li.red a:hover,
+.navbar-nav li.active.red:hover a{
+    background-color: rgb(213,63,52);
+}
+.navbar-nav li.blue a:hover,
+.navbar-nav li.active.blue:hover a {
+    background-color: rgb(68,134,248);
+}
+.navbar-nav li.green a:hover,
+.navbar-nav li.active.green:hover a {
+    background-color: rgb(10,162,90);
+}
+.navbar-nav li.yellow a:hover,
+.navbar-nav li.active.yellow:hover a {
+    background-color: rgb(251,201,68);
+}
+
+.speaker-box {
+    float: left;
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+.speaker-inner-box {
+    padding: 15px 25px 5px;
+    float: left;
+    width: 100%
+}
+.speaker-inner-box:not(:first-child) {
+    padding: 0 25px 0;
+    margin-top: -25px;
+}
+
+.speaker-avatar {
+    padding: 5px;
+    float: left;
+}
+
+.speaker-avatar img {
+    border: 3px solid hsl(0, 0%, 76%);
+}
+
+.speaker-info {
+    float: left;
+}
+.speaker-name {
+    font-weight: 700;
+    margin: 10px 0 0 10px;
+}
+
+.speaker-company {
+    font-size: 80%;
+    margin: 0 0 0 10px;
+}
+.session-info {
+    float: left;
+    padding: 0 30px 20px;
+    text-align: justify;
+}
+.session-info p {
+    font-weight: 400;
+    font-size: 13px;
+}
+
+@media (min-width: 768px){
+    .navbar-nav>li>a {
+        padding: 0;
+    }
+    .navbar-brand {
+        padding: 5px 10px;
+    }
+}
+
+.nav>li>a {
+    padding: 5px 10px;
+}
+.navbar {
+    min-height: 0;
+}
+
+#devfest-logo {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 200px;
+    opacity: .5;
+}
+
+#devfest-logo img {
+    width: 100%;
+}
+
+
+img {width:100%}
+#home {
+    float:left;
+    padding:30px;
+}
+.schedule {
+    margin-bottom: 30px;
+    min-height: 100px;
+    float: left;
+    width: 100%;
+}
+.time-badge {
+    margin: 0 auto;
+    background-color: rgb(255, 255, 255);
+    border: 5px solid hsl(0, 0%, 76%);
+    color: hsl(0, 0%, 76%);
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    font-size: 32px;
+}
+.time-hour {
+    line-height: 40px;
+    text-align: center;
+    font-size: 40px;
+    margin-top: 15px;
+}
+.time-ampm {
+    line-height: 40px;
+    text-align: center;
+    font-size: 20px;
+    margin-top: -10px;
+}
+
+.room {
+    font-size: 16px;
+    font-weight: 500;
+    text-align: center;
+    line-height: 45px;
+    background-color: #fff;
+    padding: 0;
+    color: #fff;
+}
+
+.roomMain {
+    border: 5px solid rgb(241, 102, 33);
+    background-color: rgba(241, 102, 33, .9);
+}
+.roomA{
+    border: 5px solid rgb(68,134,248);
+    background-color: rgba(68,134,248,.9);
+}
+.roomB{
+    border: 5px solid rgb(10,162,90);
+    background-color: rgba(10,162,90, .9);
+}
+.roomC{
+    border: 5px solid rgb(213, 63, 52);
+    background-color: rgba(213, 63, 52, .9);
+}
+.roomD{
+    border: 5px solid rgb(251, 201, 68);
+    background-color: rgba(251, 201, 68, .9);
+}
+
+.news {
+    padding: 30px;
+    text-align: justify;
+}
+
+@media (max-width: 992px) {
+    .time{
+        margin-bottom: 10px;
+    }
+}
+
+@media (min-width: 992px) {
+    .roomMain {
+        margin-top: 25px;
+    }
+}

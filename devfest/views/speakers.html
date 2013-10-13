@@ -1,0 +1,59 @@
+<ul class="list-unstyled" class="col-lg-12">
+    <div class="col-lg-4 col-md-4 col-sm-6">
+        <li ng-repeat="session in speakers[0]">
+            <div class="speaker-box bordered-shadowed">
+                <div class="speaker-inner-box" ng-repeat="speaker in session.speakers">
+                    <div class="speaker-avatar">
+                        <img ng-src="{{ speaker.image }}" class="img-circle"/>
+                    </div>
+                    <div class="speaker-info">
+                        <div class="speaker-name"><a ng-href="http://plus.google.com/{{ speaker.gplusid }}/about" target="_new">{{ speaker.name }}</a></div>
+                        <div class="speaker-company text-muted">{{ speaker.title }} - {{ speaker.company }}</div>
+                    </div>
+                </div>
+                <div class="session-info">
+                    <h5>{{ session.title }}</h5>
+                    <p>{{ session.desc }}</p>
+                </div>
+            </div>
+        </li>
+    </div>
+    <div class="col-lg-4 col-md-4 col-sm-6">
+        <li ng-repeat="session in speakers[1]">
+            <div class="speaker-box bordered-shadowed">
+                <div class="speaker-inner-box" ng-repeat="speaker in session.speakers">
+                    <div class="speaker-avatar">
+                        <img ng-src="{{ speaker.image }}" class="img-circle"/>
+                    </div>
+                    <div class="speaker-info">
+                        <div class="speaker-name"><a ng-href="http://plus.google.com/{{ speaker.gplusid }}/about" target="_new">{{ speaker.name }}</a></div>
+                        <div class="speaker-company text-muted">{{ speaker.title }} - {{ speaker.company }}</div>
+                    </div>
+                </div>
+                <div class="session-info">
+                    <h5>{{ session.title }}</h5>
+                    <p>{{ session.desc }}</p>
+                </div>
+            </div>
+        </li>
+    </div>
+    <div class="col-lg-4 col-md-4 col-sm-6">
+        <li ng-repeat="session in speakers[2]">
+            <div class="speaker-box bordered-shadowed">
+                <div class="speaker-inner-box" ng-repeat="speaker in session.speakers">
+                    <div class="speaker-avatar">
+                        <img ng-src="{{ speaker.image }}" class="img-circle"/>
+                    </div>
+                    <div class="speaker-info">
+                        <div class="speaker-name"><a ng-href="http://plus.google.com/{{ speaker.gplusid }}/about" target="_new">{{ speaker.name }}</a></div>
+                        <div class="speaker-company text-muted">{{ speaker.title }} - {{ speaker.company }}</div>
+                    </div>
+                </div>
+                <div class="session-info">
+                    <h5>{{ session.title }}</h5>
+                    <p>{{ session.desc }}</p>
+                </div>
+            </div>
+        </li>
+    </div>
+</ul>
