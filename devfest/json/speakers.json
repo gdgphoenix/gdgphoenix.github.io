@@ -5,7 +5,7 @@
             "gplusid" : "114746422988923214718",
             "image" : "https://lh3.googleusercontent.com/-G_xmhZgINxg/AAAAAAAAAAI/AAAAAAAAAAA/DbSPp1SSti4/s50-c/photo.jpg",
             "company" : "Agilevent",
-            "title" : "Startup Founder & Software Consultant"
+            "title" : "Startup Founder"
         },
         {
             "name" : "Michael Wolfson",
@@ -18,5 +18,36 @@
         "title" : "Android Tools Essentials",
         "desc" : "",
         "id" : 0
+    },
+
+    {
+        "speakers" : [{
+            "name" : "Vincent Serpico",
+            "gplusid" : "111629537376804786766",
+            "image" : "http://m.c.lnkd.licdn.com/media/p/1/000/1bf/2c8/1c2522a.jpg",
+            "company" : "Spotlight Software",
+            "title" : "CEO"
+        }
+        ],
+        "title" : "How to Hire, Plan and Manage a Software Development Project Driven by a Distributed Team",
+        "desc" : "",
+        "id" : 1
+    },
+
+    {
+        "speakers" : [{
+            "name" : "Olu Ayandosu",
+            "gplusid" : "",
+            "image" : "https://2.gravatar.com/avatar/ef2e2585793cc6bd067395589e5a349d?d=https%3A%2F%2Fidenticons.github.com%2F28f47f10b2dccf06d14a42851d6095b7.png&s=440",
+            "company" : "Cinch",
+            "title" : ""
+        }
+        ],
+        "title" : "Chrome Dev Tools",
+        "desc" : "",
+        "id" : 2
     }
+
+
+
 ]

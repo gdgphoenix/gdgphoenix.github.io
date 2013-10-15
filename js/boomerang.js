@@ -1,11 +1,12 @@
 var boomerang = angular.module('gdgBoomerang', ['ngSanitize','ui.bootstrap'])
     .config(function($routeProvider) {
          $routeProvider.
+             when("/",  {templateUrl:'views/home.html', controller:"HomeControl"}).
              when("/about",  {templateUrl:'views/about.html', controller:"AboutControl"}).
              when("/news", {templateUrl:'views/news.html', controller:"NewsControl"}).
              when("/events", {templateUrl:'views/events.html', controller:"EventsControl"}).
              when("/photos", {templateUrl:'views/photos.html', controller:"PhotosControl"}).
-             otherwise({ redirectTo: '/about' });
+             otherwise({ redirectTo: '/' });
     });
 
 boomerang.factory('Config',function(){
@@ -30,6 +31,21 @@ boomerang.controller('MainControl', function($scope, Config) {
     $scope.chapter_name = Config.name;
     $scope.google_plus_link = 'https://plus.google.com/' + Config.id;
     $scope.isNavCollapsed = true;
+});
+
+boomerang.controller('HomeControl', function( $scope, $http, $location, Config ) {
+    $scope.loading = true;
+    $scope.$parent.activeTab = "home";
+    $scope.cover = Config.cover;
+    $http.jsonp('https://www.googleapis.com/plus/v1/people/'+Config.id+'?callback=JSON_CALLBACK&fields=aboutMe%2Ccover%2Cimage%2CplusOneCount&key='+Config.google_api).
+        success(function(data){
+            console.log(data);
+            $scope.desc = data.aboutMe;
+            if(data.cover && data.cover.coverPhoto.url){
+                $scope.cover.url = data.cover.coverPhoto.url;
+            }
+            $scope.loading = false;
+        });
 });
 
 boomerang.controller('AboutControl', function( $scope, $http, $location, Config ) {

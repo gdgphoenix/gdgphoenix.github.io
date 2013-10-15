@@ -4,7 +4,7 @@
         <div class="col-md-2">
             <div class="time col-md-12 text-center">
                 <div class="time-badge">
-                    <div class="time-hour">{{ slot.time.start | date:'hh' }}</div>
+                    <div class="time">{{ slot.time.start | date:'h' }}:{{ slot.time.start | date:'mm' }}</div>
                     <div class="time-ampm">{{ slot.time.start | date:'a' }}</div>
                 </div>
             </div>

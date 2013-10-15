@@ -71,10 +71,12 @@ h1, h5 {
 }
 
 .speaker-inner-box {
+    clear:both;
     padding: 15px 25px 5px;
-    float: left;
+    display:inline-block;
     width: 100%
 }
+
 .speaker-inner-box:not(:first-child) {
     padding: 0 25px 0;
     margin-top: -25px;
@@ -87,6 +89,9 @@ h1, h5 {
 
 .speaker-avatar img {
     border: 3px solid hsl(0, 0%, 76%);
+    width: 100px;
+    height: 100px;
+    margin-top: 5px;
 }
 
 .speaker-info {
@@ -167,10 +172,18 @@ img {width:100%}
     font-size: 40px;
     margin-top: 15px;
 }
-.time-ampm {
+
+.time {
     line-height: 40px;
     text-align: center;
-    font-size: 20px;
+    font-size: 30px;
+    margin-top: 20px;
+}
+
+.time-ampm {
+    line-height: 20px;
+    text-align: center;
+    font-size: 10px;
     margin-top: -10px;
 }
 
