@@ -3,7 +3,7 @@
         "speakers" : [{
             "name" : "Donn Felker",
             "gplusid" : "114746422988923214718",
-            "image" : "https://lh3.googleusercontent.com/-G_xmhZgINxg/AAAAAAAAAAI/AAAAAAAAAAA/DbSPp1SSti4/s50-c/photo.jpg",
+            "image" : "http://1.gravatar.com/avatar/daf1617c9a4ff129239e922e8c56af1b?s=224&d=http%3A%2F%2F1.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D224&r=G",
             "company" : "Agilevent",
             "title" : "Startup Founder"
         },
@@ -12,7 +12,7 @@
             "gplusid" : "114182988463720945996",
             "image" : "https://lh3.googleusercontent.com/-nzEClnFMKmE/AAAAAAAAAAI/AAAAAAAAItQ/TDJGPZqG4-s/s120-c/photo.jpg",
             "company" : "Epocrates",
-            "title" : ""
+            "title" : "Lead Mobile Developer"
         }
         ],
         "title" : "Android Tools Essentials",
@@ -40,7 +40,7 @@
             "gplusid" : "",
             "image" : "https://2.gravatar.com/avatar/ef2e2585793cc6bd067395589e5a349d?d=https%3A%2F%2Fidenticons.github.com%2F28f47f10b2dccf06d14a42851d6095b7.png&s=440",
             "company" : "Cinch",
-            "title" : ""
+            "title" : "Principle Developer"
         }
         ],
         "title" : "Chrome Dev Tools",
