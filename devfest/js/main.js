@@ -16,6 +16,10 @@ var devfest = angular.module('DevFest',['ngSanitize']).
             when('/speakers', {
                 "templateUrl" : "views/speakers.html",
                 "controller" : "SpeakersControl"
+            }).
+            when('/register', {
+                "templateUrl" : "views/register.html",
+                "controller" : "RegisterControl"
             });
 
     }).
@@ -69,14 +73,16 @@ devfest.directive('navbar',function($route){
     }
 });
 
+devfest.controller('RegisterControl', function($scope, Language){
+    $scope.Language = Language;
+});
+
 devfest.controller('HomeControl', function($scope, Language){
     $scope.Language = Language;
-
 });
 
 devfest.controller('NavControl', function($scope, Language){
     $scope.Language = Language;
-
 });
 
 devfest.controller('NewsControl', function($scope, $http, Language){

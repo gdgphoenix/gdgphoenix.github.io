@@ -7,6 +7,7 @@ devfest.factory("Language", function(){
         "home" : "Home",
         "speakers" : "Speakers",
         "schedule" : "Schedule",
+        "register" : "Register",
         "news" : "Google+ Feed"
     }
 });
