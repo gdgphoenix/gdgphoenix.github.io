@@ -21,7 +21,7 @@ boomerang.factory('Config',function(){
                 subtitle : 'The Phoenix Chapter of the Google Developer Groups',
                 button : {
                     text : 'Join Us',
-                    url : 'https://plus.google.com/107371179007921028529'
+                    url : 'https://plus.google.com/+Gdgphoenix/'
                 }
         }
     }
