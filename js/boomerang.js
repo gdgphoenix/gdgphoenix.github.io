@@ -6,6 +6,7 @@ var boomerang = angular.module('gdgBoomerang', ['ngSanitize','ui.bootstrap'])
              when("/news", {templateUrl:'views/news.html', controller:"NewsControl"}).
              when("/events", {templateUrl:'views/events.html', controller:"EventsControl"}).
              when("/photos", {templateUrl:'views/photos.html', controller:"PhotosControl"}).
+             when("/admin", {templateUrl:'views/admin.html', controller:"AdminControl"}).
              otherwise({ redirectTo: '/' });
     });
 
@@ -26,6 +27,56 @@ boomerang.factory('Config',function(){
         }
     }
 });
+
+boomerang.controller('AdminControl', function($scope, Config) {
+    $scope.links = [
+
+    {
+        'title':'GDG Phoenix Corporate',
+        'link':'https://developers.google.com/groups/chapter/107371179007921028529/',
+        'desc':'Says we are active or not, keep track of "conferences" here and put in the number of attendees.'
+    },
+    {
+        'title':'GDG Events Statistic Lookup',
+        'link':'https://script.google.com/macros/s/AKfycbxhUrO0-2JUBpw60pc8JYt77PMESyex4b6-JNvopbTboV2JIaSL/exec',
+        'desc':'User Made tool to look at stats from "conferences" as seen on GDG Phoenix Corporate.'
+    },
+
+    {
+        'title':'Organizer Tools',
+        'link':'https://support.google.com/developergroups/topic/2951701?hl=en&ref_topic=2847283',
+        'desc':'The basics of managing GDG pages, chapter requirements, etc.'
+    },
+
+    {
+        'title':'GDG[x] Github',
+        'link':'https://github.com/gdg-x',
+        'desc':'Source for this site and the GDG site before it was bludgeoned by Sheldon. We use "gdg-x.github.io" for this site and "devfest-template" for the DevFest site.'
+    },
+
+
+
+    {
+        'title':'GDG Phoenix Google+ Page',
+        'link':'https://plus.google.com/+Gdgphoenix/',
+        'desc':'GDG Phoenix Page where we post events and invite people to events.'
+    },
+
+    {
+        'title':'PHX Android Meetup page',
+        'link':'http://www.meetup.com/PHX-Android/',
+        'desc':'All Android related GDG events are co-listed with the PHX Android Meetup'
+    },
+
+
+    ]
+    
+
+    $scope.chapter_name = Config.name;
+    $scope.google_plus_link = 'https://plus.google.com/' + Config.id;
+    $scope.isNavCollapsed = true;
+});
+
 
 boomerang.controller('MainControl', function($scope, Config) {
     $scope.chapter_name = Config.name;
