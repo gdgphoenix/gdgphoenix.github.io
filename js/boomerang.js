@@ -10,6 +10,12 @@ var boomerang = angular.module('gdgBoomerang', ['ngSanitize','ui.bootstrap'])
              otherwise({ redirectTo: '/' });
     });
 
+boomerang.filter('reverse', function() {
+  return function(items) {
+    return items.slice().reverse();
+  };
+});
+
 boomerang.factory('Config',function(){
     return {
         //modify these
@@ -25,7 +31,7 @@ boomerang.factory('Config',function(){
                     url : 'https://plus.google.com/+Gdgphoenix/'
                 }
         }
-    }
+    };
 });
 
 boomerang.controller('AdminControl', function($scope, Config) {
@@ -54,8 +60,6 @@ boomerang.controller('AdminControl', function($scope, Config) {
         'desc':'Source for this site and the GDG site before it was bludgeoned by Sheldon. We use "gdg-x.github.io" for this site and "devfest-template" for the DevFest site.'
     },
 
-
-
     {
         'title':'GDG Phoenix Google+ Page',
         'link':'https://plus.google.com/+Gdgphoenix/',
@@ -68,9 +72,29 @@ boomerang.controller('AdminControl', function($scope, Config) {
         'desc':'All Android related GDG events are co-listed with the PHX Android Meetup'
     },
 
-
-    ]
+    ];
     
+$scope.calendars = [
+    {
+        'title':'nextplex Phoenix',
+        'link':'http://nextplex.com/phoenix-az/calendar',
+        'desc':'The default tech calendar nowadays. Need to add everything here. @w33ble (Joe Fleming) is the main contact and gets events approved.'
+    },
+    {
+        'title':'AZGroups',
+        'link':'http://events.azgroups.com/',
+        'desc':'The old calendar that used to have it all.'
+    },
+    {
+        'title':'Co+Hoots',
+        'link':'http://www.cohoots.com/events/',
+        'desc':'For some reason we\'re not listed here. Michael!!!!'
+    },
+
+
+
+
+    ];
 
     $scope.chapter_name = Config.name;
     $scope.google_plus_link = 'https://plus.google.com/' + Config.id;
