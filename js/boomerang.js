@@ -88,7 +88,7 @@ $scope.calendars = [
     {
         'title':'Co+Hoots',
         'link':'http://www.cohoots.com/events/',
-        'desc':'For some reason we\'re not listed here. Michael!!!!'
+        'desc':'For some reason we\'re not listed here. Michael!!!! Or Jess Roth <jess@cohoots.com>'
     },
 
 
