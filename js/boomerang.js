@@ -10,6 +10,12 @@ var boomerang = angular.module('gdgBoomerang', ['ngSanitize','ui.bootstrap'])
              otherwise({ redirectTo: '/' });
     });
 
+boomerang.filter('newlines', function () {
+  return function(text) {
+    return text.replace(/\n\n/g, '<p>');
+  };
+});
+
 boomerang.filter('reverse', function() {
   return function(items) {
     return items.slice().reverse();
@@ -46,6 +52,11 @@ boomerang.controller('AdminControl', function($scope, Config) {
         'title':'GDG Events Statistic Lookup',
         'link':'https://script.google.com/macros/s/AKfycbxhUrO0-2JUBpw60pc8JYt77PMESyex4b6-JNvopbTboV2JIaSL/exec',
         'desc':'User Made tool to look at stats from "conferences" as seen on GDG Phoenix Corporate.'
+    },
+    {
+        'title':'GDG Wisdom',
+        'link':'https://sites.google.com/site/gdgwisdom/',
+        'desc':'Dan Franc site for culling GDG wisdom using the #wisdom tag'
     },
 
     {
