@@ -1,6 +1,8 @@
 <div class="span12">
-    <div class="row">
-    <h1>Admin</h1>
+  <p>&nbsp;</p>
+  <div class="gdg_loading" ng-show="loading"></div>
+  <div class="row">
+    <h2>Admin</h2>
       <div ng-repeat="l in links">
         <p>
         <a ng-href="{{l.link}}">{{l.title}}</a><br>
@@ -14,6 +16,41 @@
         {{c.desc}}
         </p>
       </div>
+      <hr>
 
-    </div>
+
+    <h2>Promotion Schedule</h2>
+    <p>To promote the GDD we will post the meeting notice to the following places:
+
+    <h4>~1 Month ahead</h4>
+    <ul>
+    <li>Front Page is changed to next meeting (working on automating this)
+    <li>Events created on G+/Meetup/GDG Corporate
+    </ul>
+
+    <h4>1 Week ahead</h4>
+    <ul>
+    <li>G+ announcement
+    <li>FB\Twitter announcement
+    <li>Mailing list
+    </ul>
+
+    <h4>The Monday ahead</h4>
+    <ul>
+    <li>G+ announcement
+    <li>FB\Twitter announcement
+    <li>Mailing List
+    <li>AZ Groups (defunct now, so ignoring)
+    </ul>
+
+    <h4>The Day of</h4>
+    <ul>
+    <li>Mailing List
+    <li>Events in G+ and Meetup will remind people
+    </ul>
+
+  </div>
+
+
+  <p>
 </div>

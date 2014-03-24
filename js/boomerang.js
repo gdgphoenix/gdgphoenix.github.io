@@ -82,6 +82,19 @@ boomerang.controller('AdminControl', function($scope, Config) {
         'link':'http://www.meetup.com/PHX-Android/',
         'desc':'All Android related GDG events are co-listed with the PHX Android Meetup'
     },
+
+    {
+        'title':'Facebook',
+        'link':'https://www.facebook.com/GDGPhoenix',
+        'desc':'GDG Phoenix on Facebook'
+    },
+
+    {
+        'title':'Twitter',
+        'link':'https://twitter.com/gdgphoenix',
+        'desc':'GDG Phoenix on Twitter'
+    },
+
     {
         'title':'The old GTUG site',
         'link':'http://phoenix.gtugs.org/',
