@@ -71,16 +71,23 @@ boomerang.controller('AdminControl', function($scope, Config) {
         'desc':'Source for this site and the GDG site before it was bludgeoned by Sheldon. We use "gdg-x.github.io" for this site and "devfest-template" for the DevFest site.'
     },
 
+
     {
-        'title':'GDG Phoenix Google+ Page',
-        'link':'https://plus.google.com/+Gdgphoenix/',
-        'desc':'GDG Phoenix Page where we post events and invite people to events.'
+        'title':'Shared Google Drive Folder from Mike',
+        'link':'https://drive.google.com/?tab=mo&authuser=0#folders/0B13HdJ3KMDaueGRMWktRWm9fMkU',
+        'desc':'Has Logos, Partner/Sponsor letter examples, etc.'
     },
 
     {
         'title':'PHX Android Meetup page',
         'link':'http://www.meetup.com/PHX-Android/',
         'desc':'All Android related GDG events are co-listed with the PHX Android Meetup'
+    },
+
+    {
+        'title':'GDG Phoenix Google+ Page',
+        'link':'https://plus.google.com/+Gdgphoenix/',
+        'desc':'GDG Phoenix Page where we post events and invite people to events.'
     },
 
     {
