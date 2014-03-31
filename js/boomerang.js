@@ -108,6 +108,13 @@ boomerang.controller('AdminControl', function($scope, Config) {
         'desc':''
     },
 
+    {
+        'title':'GTG Logo Generator',
+        'link':'http://gdg-generator.appspot.com/',
+        'desc':'Rare link that is easy to find on google but listed here anyway'
+    }
+
+
 
 
     ];
