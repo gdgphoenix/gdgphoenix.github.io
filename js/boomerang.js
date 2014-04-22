@@ -54,6 +54,11 @@ boomerang.controller('AdminControl', function($scope, Config) {
         'desc':'User Made tool to look at stats from "conferences" as seen on GDG Phoenix Corporate.'
     },
     {
+        'title':'GDG Events by region by Martin',
+        'link':'http://gdg-report.appspot.com/',
+        'desc':'Timeline of past events where the gray ones need numbers.'
+    },
+    {
         'title':'GDG Wisdom',
         'link':'https://sites.google.com/site/gdgwisdom/',
         'desc':'Dan Franc site for culling GDG wisdom using the #wisdom tag'
