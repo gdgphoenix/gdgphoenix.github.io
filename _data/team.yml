@@ -16,7 +16,7 @@
   name: "Sheldon"
   surname: "McGee"
   title: "Web Developer, Woodworker, AFOL"
-  thumbnailUrl: OlehZasadnyy.jpg
+  thumbnailUrl: sheldon.jpg
   team: true
   ribbon: 
     - {abbr: "GDG", title: "Google Developer Group"}
