@@ -1,60 +1,73 @@
 - 
   id: 0
-  name: "Vitaliy"
-  surname: "Zasadnyy"
+  name: "Michael"
+  surname: "Wolfson"
   title: "Sponsors and Speakers Manager"
-  thumbnailUrl: VitaliyZasadnyy.jpg
+  thumbnailUrl: mike.jpg
   team: true
   ribbon: 
     - {abbr: "GDG", title: "Google Developer Group"}
   social: 
-    - {name: "google-plus", link: "https://google.com/+VitalikZasadnyy"}
-    - {name: "twitter", link: "https://twitter.com/zasadnyy"}
-    - {name: "github", link: "https://github.com/zasadnyy"}
-    - {name: "site", link: "http://zasadnyy.com/"}
+    - {name: "google-plus", link: "https://google.com/+MichaelWolfson"}
+    - {name: "twitter", link: "https://twitter.com/mikewolfson"}
+    - {name: "site", link: "http://www.mikewolfson.com/"}
 - 
   id: 1
-  name: "Oleh"
-  surname: "Zasadnyy"
-  title: "Designer and Web Developer"
+  name: "Sheldon"
+  surname: "McGee"
+  title: "Web Developer, Woodworker, AFOL"
   thumbnailUrl: OlehZasadnyy.jpg
   team: true
   ribbon: 
     - {abbr: "GDG", title: "Google Developer Group"}
   social: 
-    - {name: "google-plus", link: "https://google.com/+OlehZasadnyy"}
-    - {name: "github", link: "https://github.com/ozasadnyy"}
+    - {name: "google-plus", link: "https://google.com/+SheldonMcGee"}
+    - {name: "github", link: "https://github.com/tooshel"}
+    - {name: "twitter", link: "https://twitter.com/tooshel"}
+    - {name: "site", link: "http://youfailed.us/"}
 - 
   id: 2
-  name: "Ostap"
-  surname: "Andrusiv"
+  name: "Donn"
+  surname: "Felker"
   title: "Sponsors and Speakers Manager"
-  thumbnailUrl: OstapAndrusiv.jpg
+  thumbnailUrl: donn.png
   team: true
   ribbon: 
     - {abbr: "GDG", title: "Google Developer Group"}
   social: 
-    - {name: "google-plus", link: "https://google.com/+OstapAndrusiv"}
-    - {name: "twitter", link: "https://twitter.com/p1f"}
-    - {name: "site", link: "http://andrusiv.com/"}
+    - {name: "google-plus", link: "https://www.facebook.com/donnfelker"}
+    - {name: "facebook", link: "https://www.facebook.com/donnfelker"}
+    - {name: "site", link: "http://www.donnfelker.com/"}
 - 
-  id: 4
-  name: "Dmytro"
-  surname: "Danylyk"
-  title: "Android Program Committee"
-  thumbnailUrl: DmytroDanylyk.jpg
+  id: 3
+  name: "Luis"
+  surname: "Montez"
+  title: "Sponsors and Speakers Manager"
+  thumbnailUrl: luis.jpg
   subTeam: true
+  ribbon: 
+    - {abbr: "GDG", title: "Google Developer Group"}
   social: 
-    - {name: "google-plus", link: "https://plus.google.com/+DmytroDanylyk"}
-    - {name: "twitter", link: "https://twitter.com/dmytrodanylyk"}
-    - {name: "github", link: "https://github.com/dmytrodanylyk"}
-- 
-  id: 7
-  name: "Valentyn"
-  surname: "Shybanov"
-  title: "Web and Cloud Program Committee"
-  thumbnailUrl: ValentynShybanov.jpg
-  subTeam: true
-  social: 
-    - {name: "google-plus", link: "https://google.com/+ValentynShybanov"}
-    - {name: "site", link: "http://olostan.name/"}
+    - {name: "twitter", link: "https://twitter.com/monteslu"}
+
+# - 
+#   id: 4
+#   name: "Dmytro"
+#   surname: "Danylyk"
+#   title: "Android Program Committee"
+#   thumbnailUrl: DmytroDanylyk.jpg
+#   subTeam: true
+#   social: 
+#     - {name: "google-plus", link: "https://plus.google.com/+DmytroDanylyk"}
+#     - {name: "twitter", link: "https://twitter.com/dmytrodanylyk"}
+#     - {name: "github", link: "https://github.com/dmytrodanylyk"}
+# - 
+#   id: 7
+#   name: "Valentyn"
+#   surname: "Shybanov"
+#   title: "Web and Cloud Program Committee"
+#   thumbnailUrl: ValentynShybanov.jpg
+#   subTeam: true
+#   social: 
+#     - {name: "google-plus", link: "https://google.com/+ValentynShybanov"}
+#     - {name: "site", link: "http://olostan.name/"}

@@ -57,12 +57,12 @@ __General__
 * Go (as a language for a Cloud Ready Apps)
 
 
-#### Please submit your proposals [here](http://bit.ly/dfua-c4p).
-__Deadline__ is September 1, 2014
+#### Please submit your proposals [here](https://docs.google.com/forms/d/11OxJBp9mE1t8Btj-f33TT1d5txPlYC8fBoIX5jB1P2E/viewform).
+__Deadline__ is the end of October, 2014
 
 __Please note:__ There is no guarantee that a submission will be put onto the conference agenda!<br/>
 
-The program committee picks the most interesting talk proposals and informs the selected submitters until September 15, 2014.<br/>
+The program committee picks the most interesting talk proposals and informs the selected submitters until October 31st, 2014.<br/>
 
 #### Any questions? 
-Email organizers at [devfest@gdg.org.ua](mailto:devfest@gdg.org.ua)
+Email organizers!  [Team](http://gdgphoenix.com/devfest/team/)
