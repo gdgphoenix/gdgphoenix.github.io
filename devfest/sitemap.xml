@@ -1,3 +1,7 @@
+---
+title : "Sitemap"
+sitemap_exclude: y
+---
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset
       xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
@@ -5,71 +9,17 @@
       xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
             http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
 
-    
-    
+    {% for page in site.pages %}
+    {% if page.sitemap_exclude != 'y' %}
     <url>
-        <loc>http://gdgphoenix.com/devfest2014/devfest/blog/</loc>
+        <loc>{{ page.url | prepend: site.baseurl | prepend: site.url }}</loc>
     </url>
+    {% endif %}
+    {% endfor %}
     
-    
-    
+    {% for post in site.posts %}
     <url>
-        <loc>http://gdgphoenix.com/devfest2014/devfest/cod/</loc>
+        <loc>{{ post.url | prepend: site.baseurl | prepend: site.url }}</loc>
     </url>
-    
-    
-    
-    <url>
-        <loc>http://gdgphoenix.com/devfest2014/devfest/feed.xml</loc>
-    </url>
-    
-    
-    
-    <url>
-        <loc>http://gdgphoenix.com/devfest2014/devfest/hackathon/</loc>
-    </url>
-    
-    
-    
-    <url>
-        <loc>http://gdgphoenix.com/devfest2014/devfest/</loc>
-    </url>
-    
-    
-    
-    <url>
-        <loc>http://gdgphoenix.com/devfest2014/devfest/logistics/</loc>
-    </url>
-    
-    
-    
-    <url>
-        <loc>http://gdgphoenix.com/devfest2014/devfest/schedule/</loc>
-    </url>
-    
-    
-    
-    
-    
-    <url>
-        <loc>http://gdgphoenix.com/devfest2014/devfest/speakers/</loc>
-    </url>
-    
-    
-    
-    <url>
-        <loc>http://gdgphoenix.com/devfest2014/devfest/team/</loc>
-    </url>
-    
-    
-    
-    
-    <url>
-        <loc>http://gdgphoenix.com/devfest2014/devfest/blog/call-for-papers</loc>
-    </url>
-    
-    <url>
-        <loc>http://gdgphoenix.com/devfest2014/devfest/blog/hello-world</loc>
-    </url>
-    
+    {% endfor %}
 </urlset>
